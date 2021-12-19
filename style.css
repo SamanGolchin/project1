@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(5, 4, 7, 0.7),rgba(117, 218, 248, 0.7)),url(images/gusion.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-Link{
+    text-align: right;
+    flex: 1;
+}
+.nav-image{
+    width: 150px;
+}
+.nav-link ul li{
+    display: inline-block;
+    padding: 9px 15px;
+    list-style: none;
+    position: none;
+}
+.nav-link ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-Link ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #3f14b4;
+    margin: auto;
+    transition: 0.7s;
+    display: block;
+}
+.nav-Link ul li:hover ::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    
+    cursor: pointer;
+    transition: 1s;
+}
+.hero-btn:hover{
+    border: 1px solid #3f14b4;
+    background: #3f14b4;
+    border-radius: 15px;    
+}
+nav .fa{
+    display: none;
+}
+.story{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(128, 215, 236, 0.7));
+}
+.col-1{
+    order: 2;
+    flex: 1;
+    padding: 0px;
+}
+.col-2{
+    order:1;
+    flex: 3;
+    border: 15px rgb(28, 112, 209) solid;
+    padding: 10px;
+    
+}
+.story-title{
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.story-det{
+    font-size: 14px;
+}
+.gusion {
+    border: 10px rgb(28, 112, 209) solid;
+    border-left: 0px;
+    border-top: 20px rgb(28, 112, 209) solid;
+}
+span{
+    color: rgb(2, 32, 88);
+    font-size: 20px;
+}
+.gus-more{
+    padding : 5px;
+    border: 10px rgb(28, 112, 209) solid;
+    border-left: 0px;
+    border-top: 0px ;
+    padding-bottom: 100px;
+}
+.gus-info{
+    font-size: 14px;
+}
+.gus-char{
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+}
+.footer{ 
+    background-color: rgb(211, 210, 210);
+
+}
+.footer .image{
+    margin-top: 100px;
+    height: 70px;
+    background-color: rgb(181, 233, 233);
+    text-align: center;
+}
+.footer p{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+ }
